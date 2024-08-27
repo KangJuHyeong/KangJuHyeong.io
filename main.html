@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> animal farm </title>
+        <style>
+            h1 {
+                text-align: center;
+                color: blueviolet;
+                background-color: yellowgreen;
+            }
+
+            #txt_welcome {
+                text-align: center; 
+                font-style: italic;
+                border: 2px solid black;
+                background-color: blanchedalmond;
+                margin-bottom: 50px;
+            }
+
+            .card {
+                text-align: center;
+            }
+
+            .card_title {
+                font-size: 20px;
+            }
+
+            .card_button {
+                font-size: 25px;
+                width: 150px;
+                height: 30px;
+            }
+
+            .card_img {
+                width: 300px;
+                height: 300px;
+            }
+            .animal_table{
+                border: 2px solid black;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: aqua;
+            }
+            td{
+                padding: 10px;
+                background: saddlebrown;
+                border: 2px solid black;
+            }
+            
+        </style>
+       
+    </head>
+    <body>
+        <h1>zoo</h1>
+        <div id="txt_welcome">
+            Welcome to Tennis market! <br>
+            Enjoy your shopping.
+            <br>
+            <br>
+            <a href="./orderlist.html"> animal list </a>
+        </div>
+
+
+            <table class="animal_table">
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <tr>
+                    <td>
+                        <div class="card">
+                            <img class="card_img" src="./img/dog.png">
+                            <p class="card_title"> dog </p>
+                            <input class="card_button" type="button" value="like" 
+                                 onclick="alert('멍멍');">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <img class="card_img" src="./img/cat.png">
+                            <p class="card_title"> cat </p>
+                            <input class="card_button" type="button" value="like" onclick="alert('야옹');">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <img class="card_img" src="./img/duck.png">
+                            <p class="card_title"> duck </p>
+                            <input class="card_button" type="button" value="like" onclick="alert('꽥');">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card">
+                            <img class="card_img" src="./img/cow.png">
+                            <p class="card_title"> cow </p>
+                            <input class="card_button" type="button" value="like" 
+                                 onclick="alert('음메에에');">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <img class="card_img" src="./img/elephant.png">
+                            <p class="card_title"> elephant </p>
+                            <input class="card_button" type="button" value="like" onclick="alert('뿌우우우우');">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <img class="card_img" src="./img/monkey.png">
+                            <p class="card_title"> monkey </p>
+                            <input class="card_button" type="button" value="like" onclick="alert('우끼끼끼');">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            
+            
+            
+
+    </body>
+</html>
